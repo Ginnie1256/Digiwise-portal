@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="learning-hub.html">Learning Hub</a>
+        <a href="community.html">Community</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn" href="login.html">Login</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Smart. Safe. Balanced.</h1>
+        <p class="lead">A learning & digital-wellbeing platform that helps students learn through videos, songs, chat and interactive lessons while promoting healthy tech habits.</p>
+        <p><a class="cta" href="learning-hub.html">Explore the Hub</a> <a class="btn ghost" href="contact.html">Request a Demo</a></p>
+      </div>
+      <div class="hero-card">
+        <h3>Daily Balance</h3>
+        <p><strong>1h 22m</strong> learning today • Next break in 18m</p>
+        <div class="progress" aria-hidden="true"><span style="width:62%"></span></div>
+        <p class="small">Tip: Try the 20-5 focus rhythm — 20 minutes focused + 5 minutes break.</p>
+      </div>
+    </section>
+
+    <section class="features grid-3">
+      <article class="card">
+        <div class="icon">🎓</div>
+        <h3>Smart Learning Hub</h3>
+        <p>Lessons in multiple formats — video, audio, text and chat — tailored for each learner.</p>
+      </article>
+      <article class="card">
+        <div class="icon">⏱️</div>
+        <h3>Digital Balance Monitor</h3>
+        <p>Track screen time, get reminders and set healthy usage goals with parental controls.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🛡️</div>
+        <h3>Cyber Safety Zone</h3>
+        <p>Interactive lessons and simulations that teach online safety and responsible behaviour.</p>
+      </article>
+    </section>
+
+    <section class="wireframe">
+      <h2>Wireframe (Demo)</h2>
+      <p>Use this quick wireframe as a layout reference for the student homepage and dashboards.</p>
+      <div class="wireframe-grid">
+        <div class="wf wf-main">Lesson Player<br><small>video / audio / chat</small></div>
+        <div class="wf wf-side">Chat Companion<br><small>AI helper</small></div>
+        <div class="wf wf-bottom">Progress & Quizzes</div>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <div>
+        <h3>Want a full prototype for your event?</h3>
+        <p>We can prepare a demo build and presentation tailored to your audience.</p>
+      </div>
+      <div><a class="btn" href="contact.html">Get a Demo</a></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>DigiWise</strong>
+        <p>Smart Social Learning — teaching safe and balanced digital habits.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <a href="learning-hub.html">Learning Hub</a>
+        <a href="cyber-safety.html">Cyber Safety</a>
+        <a href="gamification.html">Gamification</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      <small>© DigiWise — Demo. Not for production.</small>
+    </div>
+  </footer>
+
+  <script>
+  // Mobile menu toggle (vanilla, small)
+  const toggle = document.querySelector('.mobile-toggle');
+  const nav = document.querySelector('.nav');
+  toggle.addEventListener('click', ()=> {
+    nav.classList.toggle('open');
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <header class="site-header minimal">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container narrow auth">
+    <section class="auth-card">
+      <h1>Welcome back</h1>
+      <p class="lead">Sign in to your DigiWise account</p>
+      <form class="auth-form" onsubmit="event.preventDefault(); window.location='student-dashboard.html'">
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          Password
+          <input type="password" placeholder="••••••••" required>
+        </label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Sign in</button>
+          <a class="btn ghost" href="register.html">Create account</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer minimal">
+    <div class="container copyright">
+      <small>© DigiWise — Demo.</small>
+    </div>
+  </footer>
+</body>
+</html>

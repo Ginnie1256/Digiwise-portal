@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <header class="site-header minimal">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container narrow auth">
+    <section class="auth-card">
+      <h1>Create account</h1>
+      <p class="lead">Register as a Student, Teacher or Parent</p>
+      <form class="auth-form" onsubmit="event.preventDefault(); window.location='student-dashboard.html'">
+        <label>
+          Full name
+          <input type="text" placeholder="Full name" required>
+        </label>
+        <label>
+          Role
+          <select required>
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Parent</option>
+          </select>
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          Password
+          <input type="password" placeholder="Minimum 8 characters" required>
+        </label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Create account</button>
+          <a class="btn ghost" href="login.html">Back to login</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer minimal">
+    <div class="container copyright">
+      <small>© DigiWise — Demo.</small>
+    </div>
+  </footer>
+</body>
+</html>

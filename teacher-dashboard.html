@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — Teacher Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+      <nav class="nav">
+        <a href="teacher-dashboard.html" class="active">Dashboard</a>
+        <a href="learning-hub.html">Create Lesson</a>
+        <a href="teacher-dashboard.html#classes">Classes</a>
+        <a href="community.html">Community</a>
+        <a class="btn" href="index.html">Sign out</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Teacher Dashboard</h1>
+    <section class="grid-3">
+      <div class="card">
+        <h3>My Classes</h3>
+        <p>3 classes • 72 students</p>
+      </div>
+      <div class="card">
+        <h3>Pending Submissions</h3>
+        <p>12 assignments to review</p>
+      </div>
+      <div class="card">
+        <h3>Create Lesson</h3>
+        <p>Quick link to author a new lesson (prototype placeholder).</p>
+        <a class="btn" href="learning-hub.html">Author</a>
+      </div>
+    </section>
+
+    <section id="classes" class="mt">
+      <h2>Class overview</h2>
+      <div class="card">
+        <table class="table">
+          <thead><tr><th>Class</th><th>Students</th><th>Avg progress</th></tr></thead>
+          <tbody>
+            <tr><td>Math 9A</td><td>24</td><td>72%</td></tr>
+            <tr><td>Science 9A</td><td>23</td><td>68%</td></tr>
+            <tr><td>English 9A</td><td>25</td><td>81%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright">
+      <small>© DigiWise — Demo. Not for production.</small>
+    </div>
+  </footer>
+</body>
+</html>

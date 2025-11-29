@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="learning-hub.html">Learning Hub</a>
+        <a href="community.html">Community</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn" href="login.html">Login</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <section class="lead-card">
+      <h1>About DigiWise</h1>
+      <p class="lead">DigiWise blends personalized learning with digital well‑being tools to help students learn smarter and live healthier online lives.</p>
+      <p>We focus on: reducing digital addiction, teaching cyber safety, supporting teachers & parents, and making learning more engaging through gamification and interactive lessons.</p>
+    </section>
+
+    <section class="team grid-3">
+      <article class="card">
+        <div class="avatar">👩‍🏫</div>
+        <h3>Teachers</h3>
+        <p>Tools to create lessons, quizzes and monitor class progress.</p>
+      </article>
+      <article class="card">
+        <div class="avatar">🧑‍🎓</div>
+        <h3>Students</h3>
+        <p>Multiple learning formats and an AI chat companion for friendly guidance.</p>
+      </article>
+      <article class="card">
+        <div class="avatar">👪</div>
+        <h3>Parents</h3>
+        <p>Dashboards and parental controls for healthy digital habits.</p>
+      </article>
+    </section>
+
+    <section class="goals">
+      <h2>Objectives</h2>
+      <ul>
+        <li>Engaging and safe learning environment</li>
+        <li>Reduce digital addiction via mindful reminders</li>
+        <li>Teach cyber safety through interactive simulations</li>
+        <li>Personalized learning for different styles</li>
+      </ul>
+    </section>
+
+    <section class="tech">
+      <h2>Technology (prototype)</h2>
+      <p>This static frontend is built with HTML & CSS as a prototype. Backend & AI integrations are out of scope for this static build.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright">
+      <small>© DigiWise — Demo. Not for production.</small>
+    </div>
+  </footer>
+
+  <script>
+  document.querySelector('.mobile-toggle').addEventListener('click', ()=> {
+    document.querySelector('.nav').classList.toggle('open');
+  });
+  </script>
+</body>
+</html>

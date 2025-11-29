@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="learning-hub.html">Learning Hub</a>
+        <a href="community.html">Community</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="btn" href="login.html">Login</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <section class="lead-card">
+      <h1>Contact Us</h1>
+      <p class="lead">Need a demo or have questions? Send us a message and we'll get back to you.</p>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Demo form — no backend in this prototype.')">
+        <label>
+          Your name
+          <input type="text" placeholder="Full name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          Message
+          <textarea placeholder="How can we help?" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Send message</button>
+          <a class="btn ghost" href="index.html">Cancel</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright">
+      <small>© DigiWise — Demo. Not for production.</small>
+    </div>
+  </footer>
+
+  <script>
+  document.querySelector('.mobile-toggle').addEventListener('click', ()=> {
+    document.querySelector('.nav').classList.toggle('open');
+  });
+  </script>
+</body>
+</html>

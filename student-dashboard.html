@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DigiWise — Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">DW</div>
+        <div class="brand-text"><span>Digi</span>Wise</div>
+      </div>
+      <nav class="nav">
+        <a href="student-dashboard.html" class="active">Dashboard</a>
+        <a href="learning-hub.html">Learning Hub</a>
+        <a href="cyber-safety.html">Cyber Safety</a>
+        <a href="community.html">Community</a>
+        <a class="btn" href="index.html">Sign out</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container grid-2">
+    <aside class="panel">
+      <div class="profile">
+        <div class="avatar">🧑‍🎓</div>
+        <h3>Alex Johnson</h3>
+        <p class="muted">Grade 9 • Student</p>
+      </div>
+
+      <div class="card small">
+        <h4>Daily Balance</h4>
+        <p>Learned 1h 22m today</p>
+        <div class="progress"><span style="width:62%"></span></div>
+      </div>
+
+      <div class="card small">
+        <h4>Badges</h4>
+        <div class="badges">
+          <span class="badge">Beginner</span>
+          <span class="badge">Consistent</span>
+        </div>
+      </div>
+
+      <div class="card small">
+        <h4>Upcoming</h4>
+        <ul class="list">
+          <li>Math quiz — Tomorrow</li>
+          <li>Cyber safety module — In 3 days</li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="content">
+      <h2>Continue learning</h2>
+      <div class="card lesson">
+        <div class="lesson-meta">Math • 24m</div>
+        <h3>Algebra basics — Linear equations</h3>
+        <p>Watch the video, try the quick quiz, or ask the chat companion for help.</p>
+        <div class="actions">
+          <a class="btn" href="learning-hub.html">Open lesson</a>
+          <a class="btn ghost" href="#">Start quiz</a>
+        </div>
+      </div>
+
+      <h2 class="mt">Chat Companion</h2>
+      <div class="card chat">
+        <div class="chat-window">
+          <div class="msg bot">Hi Alex! Wanna try a 10-minute maths challenge?</div>
+          <div class="msg user">Yes — let's go!</div>
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Ask the companion..." />
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright">
+      <small>© DigiWise — Demo. Not for production.</small>
+    </div>
+  </footer>
+</body>
+</html>
