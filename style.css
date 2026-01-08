@@ -236,12 +236,19 @@ body {
 .site-footer {
   margin-top: 2rem;
   padding: 2rem 0;
-  color: var(--muted);
+  color: #fff;
+  background-color: #111;
+  text-decoration: none;
 }
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+}
+
+.container-copyright {
+  justify-items: center;
+  padding: 1em;
 }
 
 /* Utility */
@@ -260,6 +267,14 @@ body {
 }
 .list {
   padding-left: 1rem;
+}
+
+/* Center footer copyright text across the page */
+.site-footer .copyright,
+.site-footer .container-copyright {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.90rem;
 }
 
 /* Auth pages */
